@@ -12,7 +12,7 @@ const ProductsDisplay = () => {
   return (
     <div>
         {/* we need the products array here */}
-        {products.map.((product) => {
+        {products.map((product) => {
             return <div onClick={() => handleProductClick(product.id)}>product.name</div>
         })}
     </div>
