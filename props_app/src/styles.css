@@ -1,0 +1,39 @@
+:root {
+  --dark-cerulean: #124e78;
+  --maastricht-blue: #0b132b;
+  --yankees-blue: #1c2541;
+  --sea-serpent: #5bc0be;
+  --aquamarine: #6fffe9;
+  --react: #00d8ff;
+}
+.pet-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: lightcoral;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+html {
+  background: var(--yankees-blue);
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+h4 {
+  text-align: center;
+  flex-basis: 100%;
+  align-self: center;
+}
+
+h1 {
+  flex-basis: 60%;
+  color: var(--react);
+  text-align: center;
+}
