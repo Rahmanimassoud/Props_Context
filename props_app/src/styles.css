@@ -6,17 +6,7 @@
   --aquamarine: #6fffe9;
   --react: #00d8ff;
 }
-.pet-card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: lightcoral;
-  max-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 html {
   background: var(--yankees-blue);
 }
@@ -36,4 +26,11 @@ h1 {
   flex-basis: 60%;
   color: var(--react);
   text-align: center;
+}
+a {
+  color: rgb(226, 152, 14);
+  text-decoration: none;
+  margin: 10px;
+  background-color: #8d9595;
+  border-radius: 5px
 }
